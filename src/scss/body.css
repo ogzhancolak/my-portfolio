@@ -1,0 +1,551 @@
+.light_mode .body_main {
+  border: none;
+  width: 1140px;
+  margin: auto;
+  padding-top: 4rem; }
+  .light_mode .body_main #border {
+    border: 1px solid #BAB2E7; }
+  .light_mode .body_main #personalIntroduction {
+    display: flex; }
+    .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
+      width: 65%;
+      padding-right: 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #nameAndLine {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; }
+        .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #nameAndLine #lineNextoName {
+          width: 108px;
+          border: 1px solid #3730A3;
+          margin-inline-start: 0;
+          margin-inline-end: 1rem; }
+        .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #nameAndLine #name {
+          color: #4338CA;
+          font-size: 20px;
+          line-height: 28px;
+          font-weight: 500; }
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #mainHeader {
+        color: #1F2937;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+        padding-top: 2rem; }
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #shortIntroduction {
+        padding-top: 2rem;
+        color: #6B7280;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400; }
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav {
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px; }
+        .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav #buttonGroup {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          gap: 10px; }
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button {
+        width: 250px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 6px;
+        background-color: transparent;
+        border: 0.1rem solid #3730A3;
+        color: #3730A3;
+        font-size: 18px;
+        line-height: 28px;
+        text-decoration: none;
+        cursor: pointer; }
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button:hover {
+        background-color: #3730A3;
+        color: #FFFFFF; }
+    .light_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
+      width: 35%;
+      height: 25rem;
+      padding: 0 0 2rem 0;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .light_mode .body_main #personalIntroduction img {
+      overflow: hidden;
+      object-fit: cover;
+      border-radius: 5%;
+      opacity: 0.9;
+      box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14); }
+.light_mode #skills {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem; }
+  .light_mode #skills #skillMainHeaders {
+    font-size: 48px;
+    color: #1F2937; }
+  .light_mode #skills #skillBoxSet {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .light_mode #skills #skillBoxSet #skillBox {
+      display: flex;
+      flex-direction: column;
+      width: 20rem; }
+      .light_mode #skills #skillBoxSet #skillBox #skillSubHeader {
+        text-align: center;
+        font-size: 30px;
+        color: #4338CA;
+        line-height: 28px;
+        font-weight: 500; }
+      .light_mode #skills #skillBoxSet #skillBox #skillDefinition {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+        font-size: 12px;
+        color: #6B7280; }
+.light_mode #profile {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column; }
+  .light_mode #profile #profileMainHeaders {
+    font-size: 48px;
+    color: #1F2937; }
+  .light_mode #profile #profileSet {
+    padding-top: 2rem;
+    display: flex; }
+    .light_mode #profile #profileSet #profileBoxSet {
+      width: 40%;
+      display: flex;
+      flex-direction: column; }
+      .light_mode #profile #profileSet #profileBoxSet #profileSubHeader {
+        font-size: 30px;
+        color: #4338CA;
+        line-height: 28px;
+        font-weight: 500; }
+      .light_mode #profile #profileSet #profileBoxSet #profileBox {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap; }
+        .light_mode #profile #profileSet #profileBoxSet #profileBox #key {
+          width: 40%;
+          color: #000000;
+          font-size: 18px;
+          line-height: 36px;
+          font-weight: 600;
+          letter-spacing: 0.01em; }
+        .light_mode #profile #profileSet #profileBoxSet #profileBox #value {
+          width: 60%;
+          color: #000000;
+          font-size: 18px;
+          line-height: 36px;
+          font-weight: 400; }
+    .light_mode #profile #profileSet #aboutMeSet {
+      width: 55%;
+      display: flex;
+      flex-direction: column; }
+      .light_mode #profile #profileSet #aboutMeSet #aboutMeSubHeader {
+        font-size: 30px;
+        color: #4338CA;
+        line-height: 28px;
+        font-weight: 500; }
+      .light_mode #profile #profileSet #aboutMeSet #aboutMeDefinition {
+        padding-top: 2rem;
+        color: #6B7280;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400; }
+.light_mode #projects {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .light_mode #projects #projectMainHeaders {
+    font-size: 48px;
+    color: #1F2937; }
+  .light_mode #projects #projectSet {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .light_mode #projects #projectSet #projectBoxSet {
+      padding-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      width: 300px; }
+      .light_mode #projects #projectSet #projectBoxSet #projectImg {
+        overflow: hidden;
+        height: 200px;
+        object-fit: cover; }
+      .light_mode #projects #projectSet #projectBoxSet #projectSubHeader {
+        padding-top: 1rem;
+        font-size: 30px;
+        color: #4338CA;
+        line-height: 28px;
+        font-weight: 500; }
+      .light_mode #projects #projectSet #projectBoxSet #projectDefinition {
+        padding-top: 1rem;
+        color: #6B7280;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.5px;
+        flex-grow: 2; }
+      .light_mode #projects #projectSet #projectBoxSet #skillsUsed {
+        padding-top: 1rem;
+        display: flex;
+        gap: 8px; }
+        .light_mode #projects #projectSet #projectBoxSet #skillsUsed #uniqueSkill {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #3730A3;
+          font-size: 14px;
+          line-height: 100%;
+          background-color: transparent;
+          border: 1px solid #3730A3;
+          border-radius: 4px;
+          width: 85px;
+          height: 27px; }
+      .light_mode #projects #projectSet #projectBoxSet #links {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: space-between; }
+        .light_mode #projects #projectSet #projectBoxSet #links #projectsLink {
+          color: #3730A3;
+          font-size: textSPlus;
+          line-height: 16px;
+          font-weight: 500; }
+@media (max-width: 1440px) {
+  .light_mode .body_main {
+    width: 80%; } }
+@media (max-width: 1200px) {
+  .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav button {
+    padding: 0 0;
+    width: 200px;
+    height: 45px; } }
+@media (max-width: 820px) {
+  .light_mode .body_main {
+    width: 80%;
+    padding-top: 2rem; }
+    .light_mode .body_main #personalIntroduction {
+      flex-direction: column-reverse;
+      align-items: center; }
+      .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
+        width: 100%;
+        padding-right: 0;
+        align-items: center; }
+        .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #mainHeader {
+          text-align: center; }
+      .light_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
+        width: 75%;
+        height: 25rem;
+        padding: 0 0 2rem 0;
+        display: flex;
+        justify-content: flex-end; }
+    .light_mode .body_main #skills #skillBoxSet {
+      flex-direction: column;
+      align-items: center; }
+      .light_mode .body_main #skills #skillBoxSet #skillBox {
+        width: 60%; }
+    .light_mode .body_main #profile #profileSet {
+      flex-direction: column; }
+      .light_mode .body_main #profile #profileSet #profileBoxSet {
+        width: 100%;
+        align-items: center; }
+      .light_mode .body_main #profile #profileSet #aboutMeSet {
+        align-items: center;
+        width: 100%; } }
+@media (max-width: 745px) {
+  .light_mode .body_main #projects #projectSet {
+    justify-content: center; }
+    .light_mode .body_main #projects #projectSet #projectBoxSet {
+      width: 400px;
+      align-items: center; }
+      .light_mode .body_main #projects #projectSet #projectBoxSet #projectsLink {
+        padding: 2rem; } }
+@media (max-width: 430px) {
+  .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #mainHeader {
+    font-size: 60px; }
+  .light_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav #buttonGroup {
+    flex-direction: column; } }
+
+.dark_mode .body_main {
+  border: none;
+  width: 1140px;
+  margin: auto;
+  padding-top: 4rem; }
+  .dark_mode .body_main #border {
+    border: 1px solid #BAB2E7; }
+  .dark_mode .body_main #personalIntroduction {
+    display: flex; }
+    .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
+      width: 65%;
+      padding-right: 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #nameAndLine {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; }
+        .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #nameAndLine #lineNextoName {
+          width: 108px;
+          border: 1px solid #BAB2E7;
+          margin-inline-start: 0;
+          margin-inline-end: 1rem; }
+        .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #nameAndLine #name {
+          color: #B7AAFF;
+          font-size: 20px;
+          line-height: 28px;
+          font-weight: 500; }
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #mainHeader {
+        color: #AEBCCF;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+        padding-top: 2rem; }
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #shortIntroduction {
+        padding-top: 2rem;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400; }
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav {
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px; }
+        .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav #buttonGroup {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          gap: 10px; }
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button {
+        width: 250px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 6px;
+        background-color: #383838;
+        border: 0.1rem solid #E1E1FF;
+        color: #E1E1FF;
+        font-size: 18px;
+        line-height: 28px;
+        text-decoration: none;
+        cursor: pointer; }
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn button:hover {
+        background-color: #E1E1FF;
+        color: #000000; }
+    .dark_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
+      width: 35%;
+      height: 25rem;
+      padding: 0 0 2rem 0;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .dark_mode .body_main #personalIntroduction img {
+      overflow: hidden;
+      object-fit: cover;
+      border-radius: 5%;
+      opacity: 0.9;
+      box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14); }
+.dark_mode #skills {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem; }
+  .dark_mode #skills #skillMainHeaders {
+    font-size: 48px;
+    color: #AEBCCF; }
+  .dark_mode #skills #skillBoxSet {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .dark_mode #skills #skillBoxSet #skillBox {
+      display: flex;
+      flex-direction: column;
+      width: 20rem; }
+      .dark_mode #skills #skillBoxSet #skillBox #skillSubHeader {
+        text-align: center;
+        font-size: 30px;
+        color: #B7AAFF;
+        line-height: 28px;
+        font-weight: 500; }
+      .dark_mode #skills #skillBoxSet #skillBox #skillDefinition {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+        font-size: 12px;
+        color: #FFFFFF; }
+.dark_mode #profile {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column; }
+  .dark_mode #profile #profileMainHeaders {
+    font-size: 48px;
+    color: #AEBCCF; }
+  .dark_mode #profile #profileSet {
+    padding-top: 2rem;
+    display: flex; }
+    .dark_mode #profile #profileSet #profileBoxSet {
+      width: 40%;
+      display: flex;
+      flex-direction: column; }
+      .dark_mode #profile #profileSet #profileBoxSet #profileSubHeader {
+        font-size: 30px;
+        color: #B7AAFF;
+        line-height: 28px;
+        font-weight: 500; }
+      .dark_mode #profile #profileSet #profileBoxSet #profileBox {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap; }
+        .dark_mode #profile #profileSet #profileBoxSet #profileBox #key {
+          width: 40%;
+          color: #FFFFFF;
+          font-size: 18px;
+          line-height: 36px;
+          font-weight: 600;
+          letter-spacing: 0.01em; }
+        .dark_mode #profile #profileSet #profileBoxSet #profileBox #value {
+          width: 60%;
+          color: #FFFFFF;
+          font-size: 18px;
+          line-height: 36px;
+          font-weight: 400; }
+    .dark_mode #profile #profileSet #aboutMeSet {
+      width: 55%;
+      display: flex;
+      flex-direction: column; }
+      .dark_mode #profile #profileSet #aboutMeSet #aboutMeSubHeader {
+        font-size: 30px;
+        color: #B7AAFF;
+        line-height: 28px;
+        font-weight: 500; }
+      .dark_mode #profile #profileSet #aboutMeSet #aboutMeDefinition {
+        padding-top: 2rem;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400; }
+.dark_mode #projects {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .dark_mode #projects #projectMainHeaders {
+    font-size: 48px;
+    color: #AEBCCF; }
+  .dark_mode #projects #projectSet {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .dark_mode #projects #projectSet #projectBoxSet {
+      padding-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      width: 300px; }
+      .dark_mode #projects #projectSet #projectBoxSet #projectImg {
+        overflow: hidden;
+        height: 200px;
+        object-fit: cover; }
+      .dark_mode #projects #projectSet #projectBoxSet #projectSubHeader {
+        padding-top: 1rem;
+        font-size: 30px;
+        color: #B7AAFF;
+        line-height: 28px;
+        font-weight: 500; }
+      .dark_mode #projects #projectSet #projectBoxSet #projectDefinition {
+        padding-top: 1rem;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.5px;
+        flex-grow: 2; }
+      .dark_mode #projects #projectSet #projectBoxSet #skillsUsed {
+        padding-top: 1rem;
+        display: flex;
+        gap: 8px; }
+        .dark_mode #projects #projectSet #projectBoxSet #skillsUsed #uniqueSkill {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #8F88FF;
+          font-size: 14px;
+          line-height: 100%;
+          background-color: #383838;
+          border: 1px solid #8F88FF;
+          border-radius: 4px;
+          width: 85px;
+          height: 27px; }
+      .dark_mode #projects #projectSet #projectBoxSet #links {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: space-between; }
+        .dark_mode #projects #projectSet #projectBoxSet #links #projectsLink {
+          color: #8F88FF;
+          font-size: textSPlus;
+          line-height: 16px;
+          font-weight: 500; }
+@media (max-width: 1440px) {
+  .dark_mode .body_main {
+    width: 80%; } }
+@media (max-width: 1200px) {
+  .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav button {
+    padding: 0 0;
+    width: 200px;
+    height: 45px; } }
+@media (max-width: 820px) {
+  .dark_mode .body_main {
+    width: 80%;
+    padding-top: 2rem; }
+    .dark_mode .body_main #personalIntroduction {
+      flex-direction: column-reverse;
+      align-items: center; }
+      .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn {
+        width: 100%;
+        padding-right: 0;
+        align-items: center; }
+        .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #mainHeader {
+          text-align: center; }
+      .dark_mode .body_main #personalIntroduction #personalIntroductionRightColoumn {
+        width: 75%;
+        height: 25rem;
+        padding: 0 0 2rem 0;
+        display: flex;
+        justify-content: flex-end; }
+    .dark_mode .body_main #skills #skillBoxSet {
+      flex-direction: column;
+      align-items: center; }
+      .dark_mode .body_main #skills #skillBoxSet #skillBox {
+        width: 60%; }
+    .dark_mode .body_main #profile #profileSet {
+      flex-direction: column; }
+      .dark_mode .body_main #profile #profileSet #profileBoxSet {
+        width: 100%;
+        align-items: center; }
+      .dark_mode .body_main #profile #profileSet #aboutMeSet {
+        align-items: center;
+        width: 100%; } }
+@media (max-width: 745px) {
+  .dark_mode .body_main #projects #projectSet {
+    justify-content: center; }
+    .dark_mode .body_main #projects #projectSet #projectBoxSet {
+      width: 400px;
+      align-items: center; }
+      .dark_mode .body_main #projects #projectSet #projectBoxSet #projectsLink {
+        padding: 2rem; } }
+@media (max-width: 430px) {
+  .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn #mainHeader {
+    font-size: 60px; }
+  .dark_mode .body_main #personalIntroduction #personalIntroductionLeftColoumn nav #buttonGroup {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=body.css.map */

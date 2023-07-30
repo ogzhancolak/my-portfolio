@@ -1,0 +1,390 @@
+@import 'colorTextVariables';
+$personalIntroductionLeftColoumn:65%;
+//Sub Main Headers and SubHeaders are for the simlar headers in the body section
+@mixin subMainHeaders{
+  font-size: $textL;
+  color:themed("primaryheaders");
+  font-weight: themed("$weight600");
+  line-height: themed("$lineHeightL");
+}
+@mixin subHeader{
+  font-size:$textLMinus;
+  color: themed("secondaryheaders");
+  line-height: $lineHeightM;
+  font-weight:$weight500;  
+}
+@mixin mainText{
+  color:themed("texts");
+  font-size:$textM;
+  line-height: $lineHeightM; 
+  font-weight:$weight400;  
+}
+
+@include themify($themes) {
+  .body_main{
+    border: $testingBoder;
+    width:$width;
+    margin:$margin;
+    padding-top: $paddingL;
+    #border{
+      border: 1px solid $borderColor;
+    }
+    
+    #personalIntroduction{
+      display: flex;
+
+      #personalIntroductionLeftColoumn{
+        width:$personalIntroductionLeftColoumn;
+        padding-right: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        #nameAndLine{
+          display:flex;
+          align-items: center;
+          justify-content: flex-start;
+          #lineNextoName{
+            width: 108px;
+            border:1px solid themed("nameLine");
+            margin-inline-start: 0;
+            margin-inline-end: 1rem;
+          }
+          #name{
+            color:themed("secondaryheaders");
+            font-size: $textMPlus;
+            line-height: $lineHeightM;
+            font-weight:$weight500;
+           }
+        }
+       
+        #mainHeader{
+          color:themed("primaryheaders");
+          font-size:$textXL;
+          font-weight:$weight700;
+          line-height: $lineHeightXL;
+          padding-top: $paddingM;
+          }
+        #shortIntroduction{
+          padding-top: $paddingM;
+          @include mainText;
+        }
+        nav{
+          padding-top: $paddingM;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap:10px;
+        #buttonGroup{
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          gap: 10px;
+        }
+        }
+        #introductionButton{
+          width:250px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          border-radius: 6px;
+          background-color:themed("buttonBg");
+          border :0.1rem solid themed("buttonBgHover");
+          color:themed("buttonBgHover");
+          font-size: $textM;
+          line-height:$lineHeightM;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        #introductionButton:hover{
+          background-color:themed("buttonBgHover");
+          color:themed("buttonText");
+          
+        }
+      
+      }
+      #personalIntroductionRightColoumn{
+        width:100%-$personalIntroductionLeftColoumn;
+        height: 25rem;
+        padding: 0 0 2rem 0;
+        display: flex;
+        //justify-content: flex-end;
+        background-repeat: no-repeat;
+        background-size: contain;
+ 
+        
+      }
+      img {
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 5%;
+        opacity: 0.9;
+        box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14); 
+      }
+    }
+  }
+  #skills{
+    display: flex;
+    flex-direction: column;
+    padding-top: $paddingL;
+      #skillMainHeaders{
+        @include subMainHeaders;
+      }
+      #skillBoxSet{
+        padding-top: $paddingM;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        #skillBox{
+          display: flex;
+          flex-direction: column;
+          width: 20rem;
+          #skillSubHeader{
+            text-align: center;
+            @include subHeader;
+          }
+          #skillDefinition{
+            padding-top: $paddingM;
+            padding-bottom: $paddingM;
+            text-align: center;
+            font-size:$textXs;
+            color:themed("texts");
+          }
+        }
+      }
+  }
+  #profile{
+      padding-top: $paddingM;
+      padding-bottom:$paddingS;
+      display: flex;
+      flex-direction: column;
+      #profileMainHeaders{
+        @include subMainHeaders;
+      }
+      #profileSet{
+        padding-top: $paddingM;
+        display: flex;
+          #profileBoxSet{
+            width:40%;
+            display: flex;
+            flex-direction: column;
+            #profileSubHeader{
+              @include subHeader;
+            }
+            #profileBox{
+              padding-top: $paddingM;
+              padding-bottom: $paddingM;
+              display: flex;
+              flex-wrap: wrap;
+              #key{
+                width:40%;
+                color:themed("lists");
+                font-size:$textM;
+                line-height: $lineHeightMPlus; 
+                font-weight:$weight600;
+                letter-spacing: 0.01em;
+
+              }
+              #value{
+                width:60%;
+                color:themed("lists");
+                font-size:$textM;
+                line-height: $lineHeightMPlus; 
+                font-weight:$weight400;
+                
+              }
+            }
+         }
+         #aboutMeSet{
+            width:55%;
+            display: flex;
+            flex-direction: column;
+            #aboutMeSubHeader{
+              @include subHeader;
+            }
+            #aboutMeDefinition{
+              padding-top: $paddingM;
+              @include mainText;
+            }
+         }
+
+       }
+  }
+  #projects{
+    padding-top: $paddingM;
+    padding-bottom: $paddingL;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    #projectMainHeaders{
+      @include subMainHeaders;
+    }
+    #projectSet{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      #projectBoxSet{
+        padding-top: $paddingMPlus;
+        display: flex;
+        flex-direction: column;
+        width:300px;
+        #projectImg{
+          overflow: hidden;
+          height:200px;
+          object-fit: cover;
+        }
+        #projectSubHeader{
+          padding-top: $paddingS;
+          @include subHeader;
+        }
+        #projectDefinition{
+          padding-top: $paddingS;
+          color:themed("texts");
+          font-size:$textSMinus;
+          font-weight:$weight400;
+          line-height:$lineHeightS;
+          flex-grow: 2;
+        }
+        #skillsUsed{
+          padding-top: $paddingS;
+          display: flex;
+          gap: 8px;
+          #uniqueSkill{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:themed("skillsUsedText");
+            font-size:$textSMinus;
+            line-height: 100%;
+            background-color: themed("buttonBg");
+            border: 1px solid themed("skillsUsedText");
+            border-radius: 4px;
+            width: 85px;
+            height:27px;
+            
+          }
+        }
+        #links{
+          padding-top: $paddingS;
+          display: flex;
+          justify-content: space-between;
+
+          #projectsLink{
+            color:themed("skillsUsedText");
+            font-size: textSPlus;
+            line-height: $lineHeightSMinus;
+            font-weight: $weight500;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width :1440px){
+    .body_main{
+      width:80%;
+    }
+  }
+  @media (max-width :1200px){
+    .body_main{
+      #personalIntroduction{
+        #personalIntroductionLeftColoumn{
+          nav{
+            #introductionButton{
+              padding :0 0;
+              width:200px;
+              height:45px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width :820px){
+    .body_main{
+    width:80%;
+    padding-top: $paddingM;
+      #personalIntroduction{
+        flex-direction: column-reverse;
+        align-items: center;
+
+        #personalIntroductionLeftColoumn{
+          width:100%;
+          padding-right:0;
+          align-items: center;
+          #mainHeader{
+            text-align: center;
+          }
+        }
+        #personalIntroductionRightColoumn{
+          width:75%;
+          height: 25rem;
+          padding: 0 0 2rem 0;
+          display: flex;
+          justify-content: flex-end;      
+        }
+      }#skills{
+        
+        #skillBoxSet{
+          flex-direction: column;
+          align-items: center;
+          #skillBox{
+            width:60%
+          }
+        }
+    
+      }
+
+      #profile{
+        #profileSet{
+          flex-direction: column;
+          #profileBoxSet{
+            width:100%;
+            align-items: center;
+          }
+          #aboutMeSet{
+            align-items: center;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width :745px){
+    .body_main{
+      #projects{
+        #projectSet{
+          justify-content: center;
+          #projectBoxSet{
+            width:400px;
+            align-items: center;
+            #projectsLink{
+              padding: 2rem;
+            }
+          }
+          
+        }
+        }
+    }
+  }
+  @media (max-width :430px){
+  .body_main{
+    #personalIntroduction{
+      #personalIntroductionLeftColoumn{
+        #mainHeader{
+          font-size:60px;
+        }      
+      }
+    }
+  #personalIntroduction{
+    #personalIntroductionLeftColoumn{
+      nav{
+        #buttonGroup{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+    
+  }
+}
+}

@@ -1,0 +1,43 @@
+
+export const enText = {
+  themeModeDark : "NIGHT MODE",
+  themeModeLight : "LIGHT MODE", 
+  lang :  "TÜRKÇE",
+  lang1: "'YE GEÇ",
+  skills:"Skills",
+  projects : "Projects",
+  hireMe: "Hire me",
+  redirectingemail:"Redirecting to E-mail",
+  mainHeader1 :"Creative Thinker",
+  mainHeader2 :"Minimalism lover",
+  shortIntroduction:"Hello, I'm Oguzhan. I'm a full-stack developer. If you are looking for a powerful full-stack developer who has thought of every detail to build an impressive and end-user focused product, do not hesitate to contact me. Together we can create a solid and successful product!",
+  skillDescription1:"I have the skills required for the interactive websites and applications you want to design. I have full control over operations, functions, loops and events. By combining HTML and CSS, I can control interaction with users and manipulate data successfully. I'm ready to create dynamic and impressive projects that fit your needs!",
+  skillDescription2:"Building component-based web applications using JSX syntax is my specialty. I can effectively use state and props mechanisms to manage data. I can make my components more functional and efficient using React Hooks. I have the experience needed to create dynamic interfaces and you can work with me on your projects to achieve impressive results.",
+  skillDescription3:"I am learning server side development by exploring Node.js, Express, SQL and asynchronous programming. I'm on the fast track to building real-time applications with these new frameworks. I decide to use these exciting technologies to bring expectations to life and to constantly experience myself. My goal is to become a developer with professional server-side development skills and impress users with my contribution projects.",
+  profileHeader:"Profile",
+  DOBQuestion:"Date of Birth",
+  DOBAnswern:"27.04.1998",
+  cityQuestion:"City ​​of Residence",
+  cityAnswer:"Adana, Turkey",
+  educationQuestion: "Education",
+  educationAnswer: "Bachelor of Economics, Çukurova University",
+  roleQuestion:"Preferred Role",
+  roleAnswer:"Full Stack Developer",
+  aboutme:"About Me",
+  aboutMeDescription:"Hello! I'm a full-blown web developer student and I'm committed to constantly focusing on experiences and great user experiences. If you're looking for a developer who wants to build robust, scalable and impressive front-end and back-end products, here I am!. Let's put our signature under the storage that leaves a mark on life and web types! Looking forward to contacting me, passing by, waiting together. thanks!",
+  projectName1:"Pizza Order",
+  projectDescription1:"It's an app that you can order if you're craving pizza when you start to code. You can easily order pizza by choosing the dough thickness, size and ingredients..",
+  projectName2:"NASA Apod",
+  projectDescription2:"Discover an app that updates photos from NASA daily and allows users to scroll through photos! With this app, you can browse the latest NASA photos, marvel at the extraordinary landscapes in space, and enjoy making new discoveries every day.",
+  projectName3:"Task Management",
+  projectDescription3:"Meet an app that helps you create your personal to-do listening! This app lets you easily set a deadline for your images and you can appoint responsible people if you hear your needs. You can manage your daily tasks and achieve more success by using these user friendly apps to keep your life organized and more efficient.",
+  viewSite:"View Site",
+  footerComment:"Let’s work together on your next product.",
+  personelBlog:"Personal Blog",
+  redirectingLinkedin:"Redirecting to Linkedin",
+  redirectingGithub:"Redirecting to Github",
+  pageUnderConstruction:"Page is underconstruction"
+
+
+
+}

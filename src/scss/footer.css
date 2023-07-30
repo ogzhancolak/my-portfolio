@@ -1,0 +1,189 @@
+.light_mode_footer .footer_main {
+  padding-top: 4rem;
+  margin: auto;
+  width: 1140px;
+  display: flex;
+  flex-direction: column; }
+  .light_mode_footer .footer_main #footerMainHeader {
+    width: 40%;
+    color: #1F2937;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 125%; }
+  .light_mode_footer .footer_main #footerSecondRow {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .light_mode_footer .footer_main #footerSecondRow #e-mail {
+      color: #AF0C48;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 500;
+      letter-spacing: 0.05em; }
+    .light_mode_footer .footer_main #footerSecondRow #footerLinks {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap; }
+      .light_mode_footer .footer_main #footerSecondRow #footerLinks #personalBlog {
+        color: #0A0A14;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        background-color: transparent;
+        border: none;
+        cursor: pointer; }
+      .light_mode_footer .footer_main #footerSecondRow #footerLinks #gitHub {
+        color: #afa8a8;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        background-color: transparent;
+        border: none;
+        cursor: pointer; }
+      .light_mode_footer .footer_main #footerSecondRow #footerLinks #linkedin {
+        color: #0077B5;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        background-color: transparent;
+        border: none;
+        cursor: pointer; }
+      .light_mode_footer .footer_main #footerSecondRow #footerLinks #hackerrank {
+        color: #00AB6B;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        background-color: transparent;
+        border: none;
+        cursor: pointer; }
+@media (max-width: 1440px) {
+  .light_mode_footer .footer_main {
+    width: 80%; } }
+@media (max-width: 1000px) {
+  .light_mode_footer .footer_main {
+    width: 80%;
+    align-items: center; }
+    .light_mode_footer .footer_main #footerMainHeader {
+      width: 80%;
+      text-align: center; }
+    .light_mode_footer .footer_main #footerSecondRow {
+      flex-direction: column; }
+      .light_mode_footer .footer_main #footerSecondRow #footerLinks {
+        padding-top: 4rem; }
+      .light_mode_footer .footer_main #footerSecondRow #footerLinks {
+        padding-top: 4rem;
+        flex-direction: column; } }
+@media (max-width: 370px) {
+  .light_mode_footer .footer_main #footerSecondRow {
+    flex-direction: column; }
+    .light_mode_footer .footer_main #footerSecondRow #e-mail {
+      font-size: 16px; }
+    .light_mode_footer .footer_main #footerSecondRow #footerLinks {
+      padding-top: 4rem;
+      flex-direction: column; } }
+
+.dark_mode_footer .footer_main {
+  padding-top: 4rem;
+  margin: auto;
+  width: 1140px;
+  display: flex;
+  flex-direction: column; }
+  .dark_mode_footer .footer_main #footerMainHeader {
+    width: 40%;
+    color: #AEBCCF;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 125%; }
+  .dark_mode_footer .footer_main #footerSecondRow {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .dark_mode_footer .footer_main #footerSecondRow #e-mail {
+      color: #0BA6F6;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 500;
+      letter-spacing: 0.05em; }
+    .dark_mode_footer .footer_main #footerSecondRow #footerLinks {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap; }
+      .dark_mode_footer .footer_main #footerSecondRow #footerLinks #personalBlog {
+        color: #E1E1FF;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        background-color: transparent;
+        border: none;
+        cursor: pointer; }
+      .dark_mode_footer .footer_main #footerSecondRow #footerLinks #gitHub {
+        color: #e38daa;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        background-color: transparent;
+        border: none;
+        cursor: pointer; }
+      .dark_mode_footer .footer_main #footerSecondRow #footerLinks #linkedin {
+        color: #0BA6F6;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        background-color: transparent;
+        border: none;
+        cursor: pointer; }
+      .dark_mode_footer .footer_main #footerSecondRow #footerLinks #hackerrank {
+        color: #17D18B;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        background-color: transparent;
+        border: none;
+        cursor: pointer; }
+@media (max-width: 1440px) {
+  .dark_mode_footer .footer_main {
+    width: 80%; } }
+@media (max-width: 1000px) {
+  .dark_mode_footer .footer_main {
+    width: 80%;
+    align-items: center; }
+    .dark_mode_footer .footer_main #footerMainHeader {
+      width: 80%;
+      text-align: center; }
+    .dark_mode_footer .footer_main #footerSecondRow {
+      flex-direction: column; }
+      .dark_mode_footer .footer_main #footerSecondRow #footerLinks {
+        padding-top: 4rem; }
+      .dark_mode_footer .footer_main #footerSecondRow #footerLinks {
+        padding-top: 4rem;
+        flex-direction: column; } }
+@media (max-width: 370px) {
+  .dark_mode_footer .footer_main #footerSecondRow {
+    flex-direction: column; }
+    .dark_mode_footer .footer_main #footerSecondRow #e-mail {
+      font-size: 16px; }
+    .dark_mode_footer .footer_main #footerSecondRow #footerLinks {
+      padding-top: 4rem;
+      flex-direction: column; } }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,142 @@
+// The wholePageAtrngement
+  $width:1140px;
+  $margin:auto;
+
+// Padding for sections
+  $paddingS:1rem;
+  $paddingM:2rem;
+  $paddingMPlus:3rem;
+  $paddingL:4rem;
+
+//Color for Page background
+$lightBgColor :#FFFFFF;
+$darkBgColor : #252128;
+$lightBgColorFooter :#F9F9F9;
+$darkBgColorFooter : #141414;
+
+//Color for toggle button
+$toggleButtonbackgroundLight:#4731D3;
+$toggleButtonbackgroundDark:#3A3A3A;
+$toggleButton:#FFE86E;
+
+//Color for Border
+$borderColor : #BAB2E7;
+
+//text variables
+$textXs : 12px;
+$textSMinus : 14px;
+$textS : 15px;
+$textSPlus:16px;
+$textM :18px;
+$textMPlus:20px;
+$textLogo:24px;
+$textLMinus:30px;
+$textLbetweenMinus:42px;
+$textL:48px;
+$textXL:72px;
+
+$weight400:400;
+$weight500:500;
+$weight600:600;
+$weight700:700;
+
+$lineHeightSMinus:16px;
+$lineHeightS:17.5px;
+$lineHeightMMinus:24px;
+$lineHeightM:28px;
+$lineHeightMPlus:36px;
+$lineHeightL:48px;
+$lineHeightXL:72px;
+
+//Colors for text and others for header and body
+$themes: (
+  light: (
+    primaryheaders: #1F2937,
+    secondaryheaders: #4338CA,
+    texts: #6B7280,
+    lists:#000000,
+    logo:#7B61FF,
+    logoBg:#EEEBFF,
+    nameLine:#3730A3,
+    border:#BAB2E7,
+    toggleText:#777777,
+    headerTextLanguage1:#4731D3,
+    headerTextLanguage2:#777777,
+    buttonBg:transparent,
+    buttonBgHover:#3730A3,
+    buttonText:#FFFFFF,
+    skillsUsedText:#3730A3,
+    footerPersonal:#0A0A14,
+    footerGithub :#afa8a8,
+    footerLinkedin : #0077B5,
+    footerHackerrank :#00AB6B,
+    footerEmail:#AF0C48,
+  ),
+  dark: (
+    primaryheaders: #AEBCCF,
+    secondaryheaders: #B7AAFF,
+    texts: #FFFFFF,
+    lists:#FFFFFF,
+    logo: #8F88FF,
+    logoBg:#4731D3,
+    nameLine:#BAB2E7,
+    border:#BAB2E7,
+    toggleText:#D9D9D9,
+    headerTextLanguage1:#BAB2E7,
+    headerTextLanguage2:#777777,
+    buttonBg :#383838,
+    buttonBgHover:#E1E1FF,
+    buttonText:#000000,
+    skillsUsedText:#8F88FF,
+    footerPersonal:#E1E1FF,
+    footerGithub :#e38daa,
+    footerLinkedin :#0BA6F6,
+    footerHackerrank :#17D18B,
+    footerEmail:#0BA6F6,
+  ),
+);
+
+@mixin themify($themes) {
+  @each $name, $values in $themes {
+    .#{$name}_mode {
+      $theme-map: $values !global;
+      @content;
+    }
+  }
+}
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+//Colors for text and others for header and body
+$themesFooter: (
+  light: (
+    primaryheaders: #1F2937,
+    footerPersonal:#0A0A14,
+    footerGithub :#00AB6B,
+    footerLinkedin : #0077B5,
+    footerEmail:#AF0C48,
+  ),
+  dark: (
+    primaryheaders: #AEBCCF,
+    footerPersonal:#E1E1FF,
+    footerGithub :#17D18B,
+    footerLinkedin :#0BA6F6,
+    footerEmail:#0BA6F6,
+  ),
+);
+
+@mixin themifyFooter($themes) {
+  @each $name, $values in $themes {
+    .#{$name}_mode_footer {
+      $theme-map: $values !global;
+      @content;
+    }
+  }
+}
+@function themedFooter($key) {
+  @return map-get($theme-map, $key);
+}
+
+
+//only for testing purpose
+$testingBoder:none; // use none or medium dashed green

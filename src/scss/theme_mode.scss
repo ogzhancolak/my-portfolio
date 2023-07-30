@@ -1,0 +1,34 @@
+
+@import 'colorTextVariables';
+
+@mixin theme-mode( $light-mode: true) {
+  @if $light-mode {
+    background-color: $lightBgColor;
+  } @else {
+    background-color:$darkBgColor;
+  }
+}
+
+.dark_mode {
+  @include theme-mode($light-mode: false);
+}
+
+.light_mode {
+  @include theme-mode($light-mode: true);
+}
+
+@mixin theme-mode-footer( $light-mode: true) {
+  @if $light-mode {
+    background-color: $lightBgColorFooter;
+  } @else {
+    background-color:$darkBgColorFooter;
+  }
+}
+
+.dark_mode_footer {
+  @include theme-mode-footer($light-mode: false);
+}
+
+.light_mode_footer {
+  @include theme-mode-footer($light-mode: true);
+}

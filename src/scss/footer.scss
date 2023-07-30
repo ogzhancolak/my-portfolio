@@ -1,0 +1,130 @@
+@import 'colorTextVariables';
+
+
+@include themifyFooter($themes) {
+    .footer_main{
+      padding-top: $paddingL;
+      margin:$margin;
+      width:$width;
+      display: flex;
+      flex-direction: column;
+      #footerMainHeader{
+        width :40%;
+        color:themedFooter("primaryheaders");
+        font-size: $textLbetweenMinus;
+        font-weight:$weight600;
+        line-height: 125%;
+        
+      }
+      #footerSecondRow{
+        padding-top: $paddingL;
+        padding-bottom: 6rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        #e-mail{
+          color:themedFooter("footerEmail");
+          font-size:$textMPlus;
+          line-height:$lineHeightMMinus;
+          font-weight:$weight500;
+          letter-spacing: 0.05em
+
+
+        }
+        #footerLinks{
+          display: flex;
+          gap:20px;
+          flex-wrap: wrap;
+          #personalBlog{
+            color:themedFooter("footerPersonal");
+            text-decoration: none;
+            font-size:$textM;
+            line-height: 150%;
+            font-weight:$weight500;
+            letter-spacing: 0.01em;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+          }
+          #gitHub{
+            color:themedFooter("footerGithub");
+            text-decoration: none;
+            font-size:$textM;
+            line-height: 150%;
+            font-weight:$weight500;
+            letter-spacing: 0.01em;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            
+          }
+          #linkedin{
+            color:themedFooter("footerLinkedin");
+            text-decoration: none;
+            font-size:$textM;
+            line-height: 150%;
+            font-weight:$weight500;
+            letter-spacing: 0.01em;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+          }
+          #hackerrank{
+            color:themedFooter("footerHackerrank");
+            text-decoration: none;
+            font-size:$textM;
+            line-height: 150%;
+            font-weight:$weight500;
+            letter-spacing: 0.01em;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+          }
+        }
+
+      }
+    }
+    @media (max-width :1440px){
+      .footer_main{
+        width:80%;
+      }
+    }
+  
+    @media (max-width :1000px){
+      .footer_main{
+      width:80%;
+      align-items: center;
+        #footerMainHeader{
+          width :80%;
+          text-align: center;
+        }
+        #footerSecondRow{
+          flex-direction: column;
+          #footerLinks{
+            padding-top: 4rem;
+          }
+        #footerLinks{
+          padding-top: 4rem;
+          flex-direction: column;
+        }
+        }
+        }
+     
+      }
+      @media (max-width :370px){
+        .footer_main{
+        
+          #footerSecondRow{
+            flex-direction: column;
+            #e-mail{
+              font-size:$textSPlus;
+            }
+            #footerLinks{
+              padding-top: 4rem;
+              flex-direction: column;
+            }
+          }
+          }
+       
+        }
+}
